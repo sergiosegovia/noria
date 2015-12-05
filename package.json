@@ -1,0 +1,25 @@
+{
+  "name": "noria_studio",
+  "version": "1.0.0",
+  "description": "Noria Studio Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sergiosegovia"
+  },
+  "author": "Sergio Segovia <hola@sergiosegovia.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-sass": "^2.1.0"
+  },
+  "dependencies": {
+    "material-design-lite": "^1.0.6"
+  }
+}

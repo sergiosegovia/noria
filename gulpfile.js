@@ -14,7 +14,7 @@ gulp.task('server', function(){
 })
 
 gulp.task('sass', function() {
-  gulp.src('./src/styles/sass/main.scss')
+  gulp.src('./src/sass/main.scss')
   .pipe(sass().on('error', sass.logError))
     .pipe(minify())
     .pipe(concat('main.min.css'))
@@ -22,7 +22,7 @@ gulp.task('sass', function() {
 })
 
 gulp.task('watch', function() {
-  gulp.watch(['./src/styles/sass/main.scss', './src/styles/sass/**/*.scss'], ['sass'])
+  gulp.watch(['./src/sass/main.scss', './src/sass/**/**/*.scss'], ['sass'])
 })
 
 gulp.task('default', ['server', 'watch'])
